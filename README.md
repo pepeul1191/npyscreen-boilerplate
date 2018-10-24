@@ -62,6 +62,7 @@ Tipos de Datos de Columnas
 ### Fuentes
 
     + https://npyscreen.readthedocs.io/introduction.html
+		+ https://npyscreen.readthedocs.io/application-structure.html
 
 Thanks/Credits
 
