@@ -61,10 +61,7 @@ Tipos de Datos de Columnas
 
 ### Fuentes
 
-    + https://github.com/pepeul1191/python-gestion
-    + https://pypi.python.org/pypi/pysftp
-    + http://flask.pocoo.org/docs/0.12/quickstart/
-    + http://werkzeug.pocoo.org/docs/0.14/datastructures/#werkzeug.datastructures.FileStorage
+    + https://npyscreen.readthedocs.io/introduction.html
 
 Thanks/Credits
 
