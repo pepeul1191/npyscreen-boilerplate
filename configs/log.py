@@ -4,8 +4,14 @@
 import logging
 from datetime import datetime
 
-def log_print_message(message):
+def log_message(message):
   rpta = ''
   rpta = ' ' + str(datetime.now()) + '\n \t' + message
-  logging.basicConfig(filename='logs/messages.log',level=logging.DEBUG)
+  logging.basicConfig(filename = 'debug.log',level = logging.DEBUG)
+  logging.debug(rpta)
+
+def log_error(error):
+  rpta = ''
+  rpta = ' ' + str(datetime.now()) + '\n \t' + error
+  logging.basicConfig(filename = 'debug.log', level = logging.DEBUG)
   logging.debug(rpta)
