@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 import npyscreen
-from config.log import add
+from configs.log import log_print_message
 
 def myFunction(*args):
   F = npyscreen.Form(name='My Test Application')
@@ -11,5 +11,4 @@ def myFunction(*args):
 
 if __name__ == '__main__':
   npyscreen.wrapper_basic(myFunction)
-  add()
-  print("Blink and you missed it!")
+  log_print_message('hola \t mundo')
