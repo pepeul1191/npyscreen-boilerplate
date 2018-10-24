@@ -6,11 +6,10 @@ from configs.log import log_message, log_error
 
 def myFunction(*args):
   F = npyscreen.Form(name='My Test Application')
-  F.add(npyscreen.TitleText, name="First Widget")
+  myFW = F.add(npyscreen.TitleText, name = 'Nombre')
   F.edit()
+  return myFW.value
 
 if __name__ == '__main__':
-  npyscreen.wrapper_basic(myFunction)
-  log_message('hola mundo')
-  log_message('hola mundo 2')
-  log_error('error!')
+  m = npyscreen.wrapper_basic(myFunction)
+  log_message(m)
