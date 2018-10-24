@@ -1,4 +1,4 @@
-## Boilerplate Flask Python
+## Boilerplate NPyScreen
 
 Requisitos de software previamente instalado:
 
@@ -13,9 +13,6 @@ Instalación de dependencias:
     $ virtualenv -p python3 <<nombre_ambiente>>
     $ source bin/activate
     $ pip install -r requirements.txt
-    $ bundler install
-    $ bower install
-    $ npm install
 
 ### Migraciones
 
